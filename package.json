@@ -1,0 +1,14 @@
+{
+  "name": "downinst",
+  "version": "0.0.1-alpha",
+  "description": "Crossplattform Customizeable downloader and installer for tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergej Görzen",
+  "license": "MIT",
+  "dependencies": {
+    "ftp": "^0.3.10"
+  }
+}
