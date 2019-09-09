@@ -60,7 +60,7 @@ function downloadFileFTP(url, filePath, outPath, onFinish, onProgress) {
 
                 stream.on('close', function() { 
                     if (onFinish) 
-                        onFinish();
+                        onFinish(outPath);
                     c.end(); 
                 });
 
